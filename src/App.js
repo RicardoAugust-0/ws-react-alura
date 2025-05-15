@@ -1,7 +1,10 @@
 import './App.css';
-import Logo from './components/logo/index'
+import Logo from './components/logo'
+import profile_Icon from './imgs/perfil.svg';
+import bag from './imgs/sacola.svg';
 
 const textOptions = ['Categorias', 'Favoritos', 'Minha Estante'];
+const icons = [profile_Icon, bag];
 
 function App() {
   return (
@@ -11,6 +14,12 @@ function App() {
         <ul className='Options'>
           {textOptions.map((text) => (
             <li><p><a href='#'>{text}</a></p></li>
+          ))}
+        </ul>
+
+        <ul className='Icons'>
+          {icons.map((icon) => (
+            <li><img src={icon} alt='logo_icon'></img></li>
           ))}
         </ul>
       </header>
