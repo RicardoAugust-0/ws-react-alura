@@ -34,7 +34,6 @@ const OptionsContainer = styled.ul`
             font-size: large;
         }
     }
-}
 `
 
 function HeaderOptions() {
