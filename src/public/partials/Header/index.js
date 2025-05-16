@@ -8,7 +8,7 @@ const HeaderContainer = styled.header`
     box-shadow: 1px 2px 6px #fff;
     display: flex;
     height: 10vh;
-    justify-content: space-between;
+    justify-content: center;
 `
 
 function Header() {

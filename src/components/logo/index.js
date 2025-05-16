@@ -9,8 +9,7 @@ const LogoContainer = styled.div`
     align-items: center;
 `
 const LogoImg = styled.img`
-    width: 50px;
-    height: 50px;
+    width: 40px;
     margin-right: 20px;
 `
 const LogoText = styled.p`
